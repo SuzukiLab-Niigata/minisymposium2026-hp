@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="DENY">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<title>NDTSI 2026 — Joint Seminar Japan–Türkiye</title>
+<meta name="description" content="Joint Seminar on Emerging Non-Destructive Technologies for Sustainable Infrastructure. Niigata University × Ege University. September 7–10, 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --od:#252e1e; --o:#3d4a30; --ol:#5c6b4a; --oll:#8a9874;
+  --cr:#f4f1e8; --crd:#e8e3d5; --crdd:#ddd7c6;
+  --gd:#b8943a; --gdl:#d4ad5c;
+  --tl:#26686a; --tll:#3a8486;
+  --tx:#1a1e14; --mu:#5a5e52; --wh:#fff;
+  --br:rgba(61,74,48,0.14); --nh:60px;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'DM Sans',sans-serif;background:var(--cr);color:var(--tx);line-height:1.7;min-height:100vh}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:'DM Sans',sans-serif;cursor:pointer}
+
+/* LANG */
+[data-lang]{display:none}
+[data-lang].L{display:block}
+span[data-lang]{display:none}
+span[data-lang].L{display:inline}
+p[data-lang]{display:none}
+p[data-lang].L{display:block}
+div[data-lang]{display:none}
+div[data-lang].L{display:block}
+
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:200;height:var(--nh);background:rgba(37,46,30,.97);backdrop-filter:blur(10px);display:flex;align-items:center;padding:0 1.5rem;gap:1rem;border-bottom:1px solid rgba(184,148,58,.2)}
+.nav-logo{font-family:'DM Serif Display',serif;font-size:.95rem;color:var(--wh);letter-spacing:.02em;white-space:nowrap;flex-shrink:0}
+.nav-logo em{font-style:italic;color:var(--gdl)}
+.nav-links{display:flex;gap:.1rem;list-style:none;flex:1;overflow-x:auto}
+.nav-links button{background:none;border:none;font-size:.68rem;font-weight:500;color:rgba(255,255,255,.5);letter-spacing:.07em;text-transform:uppercase;padding:.35rem .65rem;border-radius:2px;transition:all .15s;white-space:nowrap}
+.nav-links button:hover{color:var(--wh)}
+.nav-links button.act{color:var(--gdl);background:rgba(184,148,58,.1)}
+.nav-lang{display:flex;gap:.3rem;margin-left:auto;flex-shrink:0}
+.lb{background:none;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.42);font-size:.65rem;letter-spacing:.07em;padding:2px 7px;border-radius:2px;transition:all .15s}
+.lb.act,.lb:hover{background:var(--gd);color:var(--wh);border-color:var(--gd)}
+
+/* PAGES */
+.pg{display:none;padding-top:var(--nh);min-height:calc(100vh - var(--nh))}
+.pg.act{display:block}
+
+/* COMMON */
+.sec{padding:3.5rem 1.5rem}
+.inn{max-width:1060px;margin:0 auto}
+.stag{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gd);font-weight:600;margin-bottom:.6rem}
+.stag.wh{color:var(--gdl)}
+.stit{font-family:'DM Serif Display',serif;font-size:clamp(1.5rem,2.6vw,2.2rem);color:var(--od);line-height:1.2;margin-bottom:1rem}
+.stit.wh{color:var(--wh)}
+.stit em{font-style:italic;color:var(--tl)}
+.stit.wh em{color:var(--gdl)}
+.sbody{font-size:.9rem;color:var(--mu);line-height:1.85;margin-bottom:1rem}
+.sbody.wh{color:rgba(255,255,255,.62)}
+.div{width:36px;height:2px;background:var(--gd);margin-bottom:1.4rem}
+.div.t{background:var(--tl)}.div.wh{background:var(--gdl)}
+.ext-link{color:var(--tl);font-size:.78rem;border-bottom:1px solid rgba(38,104,106,.3);display:inline}
+
+/* IMAGE PLACEHOLDER */
+.img-ph{background:var(--crdd);border:2px dashed rgba(61,74,48,.22);border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;color:var(--oll);font-size:.72rem;letter-spacing:.04em;text-align:center;padding:1rem;position:relative}
+.img-ph-icon{font-size:1.6rem;opacity:.45}
+.img-ph-note{font-size:.68rem;opacity:.65;line-height:1.5}
+
+/* ===================== HOME ===================== */
+.home-split{min-height:calc(100vh - var(--nh));display:grid;grid-template-columns:1.1fr .9fr}
+.home-l{background:var(--od);padding:4.5rem 3.5rem;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}
+.home-l::before{content:'';position:absolute;top:-100px;right:-100px;width:380px;height:380px;border-radius:50%;border:1px solid rgba(184,148,58,.14);pointer-events:none}
+.hbadge{display:inline-block;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gdl);border:1px solid rgba(184,148,58,.32);padding:4px 11px;border-radius:2px;margin-bottom:1.4rem;width:fit-content}
+.htit{font-family:'DM Serif Display',serif;font-size:clamp(1.6rem,2.8vw,2.7rem);color:var(--wh);line-height:1.1;margin-bottom:.7rem}
+.htit em{font-style:italic;color:var(--gdl)}
+.hsub{font-size:.78rem;color:rgba(255,255,255,.42);margin-bottom:1.6rem;letter-spacing:.07em;text-transform:uppercase;font-weight:300}
+.hmeta{display:flex;flex-direction:column;gap:.5rem;margin-bottom:1.8rem}
+.hm{display:flex;align-items:center;gap:.65rem;font-size:.82rem;color:rgba(255,255,255,.68)}
+.hdot{width:4px;height:4px;border-radius:50%;background:var(--gd);flex-shrink:0}
+.hflags{display:flex;gap:.35rem}
+.ftag{font-size:.66rem;padding:2px 7px;border-radius:2px;font-weight:500}
+.fjp{background:rgba(200,0,45,.12);color:#ff8090}.ftr{background:rgba(220,10,23,.1);color:#ff9090}
+.hmotto{background:rgba(38,104,106,.22);border-left:2px solid var(--tll);padding:.75rem 1rem;border-radius:0 3px 3px 0;font-size:.8rem;font-style:italic;color:rgba(255,255,255,.58);line-height:1.6;margin-bottom:1.8rem}
+
+/* Home nav cards */
+.home-r{background:var(--crd);padding:3rem 2.5rem;display:flex;flex-direction:column;justify-content:center;gap:.85rem}
+.hnav-lbl{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mu);margin-bottom:.35rem}
+.hng{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.hnc{background:var(--wh);border:1px solid var(--br);border-radius:4px;padding:1rem;cursor:pointer;transition:all .16s;display:flex;flex-direction:column;gap:.25rem;position:relative;overflow:hidden}
+.hnc::after{content:'→';position:absolute;bottom:.7rem;right:.8rem;font-size:.8rem;color:var(--gd);opacity:0;transition:opacity .16s}
+.hnc:hover{border-color:var(--gd);transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.07)}
+.hnc:hover::after{opacity:1}
+.hnc-ic{font-size:1.1rem;margin-bottom:.05rem}
+.hnc-t{font-size:.8rem;font-weight:600;color:var(--od);letter-spacing:.02em}
+.hnc-s{font-size:.72rem;color:var(--mu);line-height:1.4}
+.hnc.feat{background:var(--od);border-color:var(--od);grid-column:span 2;flex-direction:row;align-items:center;gap:.85rem}
+.hnc.feat .hnc-t{color:var(--wh)}
+.hnc.feat .hnc-s{color:rgba(255,255,255,.45)}
+.hnc.feat::after{color:var(--gdl);opacity:.5}
+.hnc.feat:hover{border-color:var(--gd)}
+
+/* Fact strip */
+.facts{background:var(--o);display:flex;justify-content:center;flex-wrap:wrap}
+.fact{padding:1.3rem 2.5rem;text-align:center;border-right:1px solid rgba(255,255,255,.07)}
+.fact:last-child{border-right:none}
+.fval{font-family:'DM Serif Display',serif;font-size:1.6rem;color:var(--gdl);line-height:1;margin-bottom:.2rem}
+.flbl{font-size:.63rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4)}
+
+/* ===================== ABOUT ===================== */
+.about-hero{background:var(--od);padding:4rem 1.5rem 3rem;position:relative;overflow:hidden}
+.about-hero::before{content:'';position:absolute;top:-80px;right:4%;width:340px;height:340px;border-radius:50%;border:1px solid rgba(184,148,58,.1);pointer-events:none}
+.ahi{max-width:1060px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:center}
+
+/* Info cards */
+.ig3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.8rem}
+.ic{background:var(--wh);border:1px solid var(--br);border-radius:4px;padding:1.3rem;transition:border-color .16s,transform .16s}
+.ic:hover{border-color:var(--gd);transform:translateY(-2px)}
+.ic-ic{font-size:1.2rem;margin-bottom:.65rem}
+.ic-t{font-size:.76rem;font-weight:600;color:var(--od);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.45rem}
+.ic-b{font-size:.82rem;color:var(--mu);line-height:1.78}
+
+/* Motto */
+.motto{background:var(--tl);padding:2.2rem 1.5rem;text-align:center}
+.mtxt{font-family:'DM Serif Display',serif;font-size:clamp(1.05rem,2vw,1.6rem);color:var(--wh);line-height:1.4;max-width:760px;margin:0 auto}
+.mtxt em{font-style:italic;color:rgba(255,255,255,.7)}
+.mnote{font-size:.7rem;color:rgba(255,255,255,.38);margin-top:.55rem;letter-spacing:.06em;text-transform:uppercase}
+
+/* Pillars */
+.pg3{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--br);border-radius:4px;overflow:hidden;margin-top:1.8rem}
+.pil{padding:2rem 1.6rem;border-right:1px solid var(--br);background:var(--wh);transition:background .22s}
+.pil:last-child{border-right:none}
+.pil:hover{background:var(--od)}
+.pil:hover .pn{color:var(--gdl)}
+.pil:hover .pt{color:var(--wh)}
+.pil:hover .pb{color:rgba(255,255,255,.55)}
+.pn{font-family:'DM Serif Display',serif;font-size:2rem;color:var(--crdd);margin-bottom:.7rem;transition:color .22s}
+.pt{font-size:.75rem;font-weight:600;color:var(--od);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.7rem;transition:color .22s}
+.pb{font-size:.8rem;color:var(--mu);line-height:1.8;transition:color .22s}
+
+/* Dates */
+.drow{display:grid;grid-template-columns:repeat(4,1fr);gap:.9rem;margin-top:1.5rem}
+.dc{background:var(--wh);border:1px solid var(--br);border-radius:4px;padding:1.1rem}
+.dc.hl{background:var(--od);border-color:var(--od)}
+.dclbl{font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gd);margin-bottom:.35rem}
+.dc.hl .dclbl{color:var(--gdl)}
+.dcn{font-size:.8rem;font-weight:500;color:var(--od);margin-bottom:.25rem}
+.dc.hl .dcn{color:rgba(255,255,255,.6)}
+.dcv{font-family:'DM Serif Display',serif;font-size:1.15rem;color:var(--od)}
+.dc.hl .dcv{color:var(--wh)}
+.dcnt{font-size:.68rem;color:var(--mu);margin-top:.15rem;font-style:italic}
+.dc.hl .dcnt{color:rgba(255,255,255,.32)}
+
+/* ===================== PROGRAM ===================== */
+.pday{background:var(--wh);border:1px solid var(--br);border-radius:6px;overflow:hidden;margin-bottom:1.8rem}
+.pdh{background:var(--od);padding:1rem 1.6rem;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap}
+.pdnum{font-family:'DM Serif Display',serif;font-size:1.5rem;color:var(--gdl)}
+.pdt{font-size:.85rem;font-weight:500;color:var(--wh)}
+.pdd{font-size:.73rem;color:rgba(255,255,255,.4);margin-left:auto}
+.pslot{display:flex;gap:1rem;align-items:flex-start;padding:1rem 1.6rem;border-bottom:1px solid var(--br);transition:background .14s}
+.pslot:last-child{border-bottom:none}
+.pslot:hover{background:var(--cr)}
+.ptm{font-size:.7rem;letter-spacing:.05em;color:var(--gd);font-weight:600;min-width:55px;padding-top:.12rem;white-space:nowrap}
+.pev{font-size:.88rem;font-weight:500;color:var(--od)}
+.pdet{font-size:.77rem;color:var(--mu);margin-top:.12rem;line-height:1.5}
+.ptag{display:inline-block;font-size:.62rem;padding:2px 6px;border-radius:2px;font-weight:600;margin-top:.2rem}
+.pt-c{background:rgba(61,74,48,.1);color:var(--od)}
+.pt-f{background:rgba(38,104,106,.12);color:var(--tl)}
+.pt-s{background:rgba(184,148,58,.12);color:var(--gd)}
+.pt-k{background:rgba(37,46,30,.85);color:var(--gdl)}
+
+/* Keynote speaker cards */
+.kgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem}
+.kcard{background:var(--wh);border:1px solid var(--br);border-radius:6px;overflow:hidden;text-align:center}
+.kphoto{height:160px;position:relative}
+.kphoto .img-ph{height:100%;border:none;border-radius:0;border-bottom:1px solid var(--br)}
+.kbody{padding:1rem}
+.kname{font-size:.88rem;font-weight:600;color:var(--od);margin-bottom:.15rem}
+.krole{font-size:.72rem;color:var(--mu);margin-bottom:.2rem}
+.kaffil{font-size:.7rem;color:var(--gd)}
+.kcs{background:var(--crdd);border-color:var(--crdd)}
+.kcs .kbody{display:flex;flex-direction:column;align-items:center;gap:.3rem}
+.kcs-lbl{font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;color:var(--oll)}
+.kcs-txt{font-size:.75rem;color:var(--mu);font-style:italic}
+
+/* ===================== SUBMISSION ===================== */
+.subg{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.flow{display:flex;flex-direction:column;gap:0;margin-top:1.3rem}
+.fstep{display:flex;gap:1rem;position:relative}
+.fstep:not(:last-child)::after{content:'';position:absolute;left:13px;top:28px;width:1px;height:calc(100% - 6px);background:var(--br)}
+.fnum{width:28px;height:28px;border-radius:50%;background:var(--od);color:var(--gdl);display:flex;align-items:center;justify-content:center;font-family:'DM Serif Display',serif;font-size:.85rem;flex-shrink:0;position:relative;z-index:1}
+.fbody{padding:.25rem 0 1.5rem}
+.ftit{font-size:.86rem;font-weight:600;color:var(--od);margin-bottom:.2rem}
+.fdesc{font-size:.78rem;color:var(--mu);line-height:1.65}
+.mcard{background:var(--od);border-radius:6px;padding:1.6rem;margin-bottom:1.5rem}
+.mlbl{font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;color:var(--gdl);margin-bottom:.4rem}
+.mname{font-family:'DM Serif Display',serif;font-size:1.1rem;color:var(--wh);margin-bottom:.3rem}
+.mdesc{font-size:.78rem;color:rgba(255,255,255,.5);line-height:1.68;margin-bottom:.9rem}
+.mst{display:flex;gap:1.2rem;flex-wrap:wrap}
+.msti{text-align:center}
+.mstv{font-family:'DM Serif Display',serif;font-size:1.4rem;color:var(--gdl)}
+.mstl{font-size:.62rem;color:rgba(255,255,255,.35);letter-spacing:.08em;text-transform:uppercase}
+.mlnk{display:inline-block;margin-top:.9rem;font-size:.73rem;color:var(--gdl);border-bottom:1px solid rgba(212,173,92,.3)}
+.atbl{width:100%;border-collapse:collapse;margin-top:1.3rem}
+.atbl th{font-size:.64rem;text-transform:uppercase;letter-spacing:.09em;color:var(--mu);font-weight:500;padding:.55rem .85rem;text-align:left;border-bottom:1px solid var(--br)}
+.atbl td{padding:.75rem .85rem;font-size:.82rem;border-bottom:1px solid var(--br);vertical-align:middle}
+.bd{display:inline-block;padding:2px 8px;border-radius:2px;font-size:.7rem;font-weight:600}
+.bg{background:rgba(184,148,58,.14);color:#7a5818}
+.bt{background:rgba(38,104,106,.12);color:var(--tl)}
+.bo{background:rgba(61,74,48,.11);color:var(--od)}
+.snotice{background:var(--crd);border:1px solid var(--br);border-radius:4px;padding:.9rem 1.1rem;font-size:.74rem;color:var(--mu);line-height:1.65;margin-top:1rem}
+.snotice strong{color:var(--od)}
+
+/* ===================== ORGANIZERS ===================== */
+.jblk{background:var(--od);border-radius:6px;padding:1.4rem 1.7rem;display:flex;gap:.9rem;margin-bottom:2.5rem;align-items:flex-start}
+.jtxt{font-size:.8rem;color:rgba(255,255,255,.58);line-height:1.78}
+.jtxt strong{color:var(--gdl);display:block;margin-bottom:.2rem;font-size:.85rem}
+.oblbl{font-size:.63rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mu);font-weight:600;padding:.35rem 0;border-bottom:1px solid var(--br);margin-bottom:1.1rem}
+.instg{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-bottom:2.2rem}
+.instc{background:var(--wh);border:1px solid var(--br);border-radius:6px;overflow:hidden}
+.instlogo{height:90px}
+.instlogo .img-ph{height:100%;border:none;border-radius:0;border-bottom:1px solid var(--br)}
+.instb{padding:1.1rem 1.3rem}
+.instn{font-size:.9rem;font-weight:600;color:var(--od);margin-bottom:.15rem}
+.instd{font-size:.76rem;color:var(--mu)}
+.instl{font-size:.7rem;color:var(--gd);margin-top:.18rem}
+.geg{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.gec{background:var(--wh);border:1px solid var(--br);border-radius:6px;overflow:hidden;text-align:center}
+.geph{height:150px}
+.geph .img-ph{height:100%;border:none;border-radius:0;border-bottom:1px solid var(--br)}
+.geb{padding:1rem}
+.gen{font-size:.86rem;font-weight:600;color:var(--od);margin-bottom:.15rem}
+.ger{font-size:.7rem;color:var(--mu);margin-bottom:.18rem}
+.gea{font-size:.68rem;color:var(--gd)}
+.gei{font-size:.7rem;color:var(--mu);margin-top:.3rem;line-height:1.45}
+
+/* ===================== SPONSORS ===================== */
+.sgg{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem}
+.sgc{background:var(--wh);border:1px solid var(--br);border-radius:4px;overflow:hidden;transition:border-color .16s,transform .16s}
+.sgc:hover{border-color:var(--gd);transform:translateY(-2px)}
+.sglogo{height:72px}
+.sglogo .img-ph{height:100%;border:none;border-radius:0;border-bottom:1px solid var(--br)}
+.sgb{padding:.8rem .95rem}
+.sgn{font-size:.78rem;font-weight:600;color:var(--od);margin-bottom:.1rem}
+.sgt{font-size:.66rem;color:var(--mu)}
+.sgcs{background:var(--od);border-color:var(--od)}
+.sgcs-b{padding:1.4rem 1rem;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.35rem;min-height:110px}
+.sgcs-l{font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gdl)}
+.sgcs-t{font-size:.75rem;color:rgba(255,255,255,.38);font-style:italic;text-align:center}
+
+/* CTA BAR */
+.cta{background:var(--od);padding:3rem 1.5rem;text-align:center}
+.cta-t{font-family:'DM Serif Display',serif;font-size:clamp(1.4rem,2.3vw,2rem);color:var(--wh);margin-bottom:.6rem}
+.cta-b{font-size:.86rem;color:rgba(255,255,255,.42);margin-bottom:1.6rem;max-width:460px;margin-left:auto;margin-right:auto}
+.cta-btn{display:inline-flex;align-items:center;gap:.55rem;background:var(--gd);color:var(--wh);padding:.75rem 1.7rem;border-radius:2px;font-weight:500;font-size:.84rem;letter-spacing:.04em;transition:background .16s}
+.cta-btn:hover{background:var(--gdl)}
+.cta-em{font-size:.7rem;color:rgba(255,255,255,.25);margin-top:1rem}
+
+/* FOOTER */
+footer{background:var(--tx);color:rgba(255,255,255,.33);padding:1.6rem 1.5rem;text-align:center;font-size:.7rem;letter-spacing:.03em}
+footer a{color:var(--gdl)}
+footer p+p{margin-top:.35rem}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .home-split{grid-template-columns:1fr}
+  .home-r{display:none}
+  .home-l{padding:3rem 1.5rem}
+  .ahi{grid-template-columns:1fr}
+  .ig3,.pg3{grid-template-columns:1fr}
+  .pg3{border:none;gap:.8rem}
+  .pil{border-right:none;border:1px solid var(--br);border-radius:4px}
+  .drow{grid-template-columns:repeat(2,1fr)}
+  .subg{grid-template-columns:1fr}
+  .instg{grid-template-columns:1fr}
+  .geg{grid-template-columns:repeat(2,1fr)}
+  .kgrid{grid-template-columns:repeat(2,1fr)}
+  .sgg{grid-template-columns:repeat(2,1fr)}
+  .facts{gap:0}
+  .fact{padding:1.1rem 1.5rem}
+}
+@media(max-width:560px){
+  .drow{grid-template-columns:1fr}
+  .geg,.kgrid,.sgg{grid-template-columns:1fr}
+  .hng{grid-template-columns:1fr}
+  .hnc.feat{grid-column:span 1}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<div id="toast" style="position:fixed;bottom:2rem;left:50%;transform:translateX(-50%) translateY(20px);background:var(--od);color:var(--gdl);border:1px solid rgba(184,148,58,.35);padding:.6rem 1.4rem;border-radius:3px;font-size:.8rem;letter-spacing:.04em;opacity:0;transition:opacity .25s,transform .25s;z-index:9999;pointer-events:none;white-space:nowrap">
+  <span data-lang="en" class="L">✓ Email address copied!</span>
+  <span data-lang="jp">✓ メールアドレスをコピーしました</span>
+  <span data-lang="tr">✓ E-posta adresi kopyalandı!</span>
+</div>
+<nav class="nav">
+  <div class="nav-logo">NDTSI <em>2026</em></div>
+  <ul class="nav-links" role="navigation" aria-label="Main navigation">
+    <li><button onclick="go('home')" id="nb-home" class="act"><span data-lang="en" class="L">Home</span><span data-lang="jp">ホーム</span><span data-lang="tr">Ana Sayfa</span></button></li>
+    <li><button onclick="go('about')" id="nb-about"><span data-lang="en" class="L">About</span><span data-lang="jp">概要</span><span data-lang="tr">Hakkında</span></button></li>
+    <li><button onclick="go('dates')" id="nb-dates"><span data-lang="en" class="L">Dates</span><span data-lang="jp">日程</span><span data-lang="tr">Tarihler</span></button></li>
+    <li><button onclick="go('program')" id="nb-program"><span data-lang="en" class="L">Program</span><span data-lang="jp">プログラム</span><span data-lang="tr">Program</span></button></li>
+    <li><button onclick="go('submission')" id="nb-submission"><span data-lang="en" class="L">Submission</span><span data-lang="jp">投稿</span><span data-lang="tr">Sunum</span></button></li>
+    <li><button onclick="go('organizers')" id="nb-organizers"><span data-lang="en" class="L">Organizers</span><span data-lang="jp">組織委員会</span><span data-lang="tr">Komite</span></button></li>
+    <li><button onclick="go('sponsors')" id="nb-sponsors"><span data-lang="en" class="L">Sponsors</span><span data-lang="jp">協賛</span><span data-lang="tr">Sponsorlar</span></button></li>
+  </ul>
+  <div class="nav-lang">
+    <button class="lb act" onclick="setL('en')">EN</button>
+    <button class="lb" onclick="setL('jp')">JP</button>
+    <button class="lb" onclick="setL('tr')">TR</button>
+  </div>
+</nav>
+
+<!-- ===================== HOME ===================== -->
+<div class="pg act" id="pg-home">
+  <div class="home-split">
+    <div class="home-l">
+      <div class="hbadge">JSPS Bilateral Program · NDTSI 2026 · 1st Seminar</div>
+      <h1 class="htit"><em>Joint Seminar</em> on Emerging<br>Non-Destructive Technologies<br>for Sustainable Infrastructure</h1>
+      <p class="hsub">NDTSI 2026 · Japan–Türkiye</p>
+      <div class="hmeta">
+        <div class="hm"><div class="hdot"></div><span>September 7–10, 2026 · Izmir, Türkiye &amp; Online</span></div>
+        <div class="hm"><div class="hdot"></div>
+          <span data-lang="en" class="L">Hybrid — In-person + Online (Equal Experience)</span>
+          <span data-lang="jp">ハイブリッド — 対面＋オンライン（同等体験）</span>
+          <span data-lang="tr">Hibrit — Yüz yüze + Çevrimiçi (Eşit Deneyim)</span>
+        </div>
+        <div class="hm"><div class="hdot"></div>
+          <span data-lang="en" class="L">Hosted by: Faculty of Agriculture, Niigata University × Faculty of Engineering, Ege University</span>
+          <span data-lang="jp">主催：新潟大学農学部 × エーゲ大学工学部</span>
+          <span data-lang="tr">Ziraat Fakültesi, Niigata Üniversitesi × Mühendislik Fakültesi, Ege Üniversitesi</span>
+        </div>
+        <div class="hm"><div class="hdot"></div><div class="hflags"><span class="ftag fjp">🇯🇵 Japan</span><span class="ftag ftr">🇹🇷 Türkiye</span></div></div>
+      </div>
+      <div class="hmotto">
+        <span data-lang="en" class="L">"Online participants deserve the same experience as those in the room." — An experimental approach to inclusive hybrid academic events.</span>
+        <span data-lang="jp">「オンライン参加者も現地と変わらない体験を。」— インクルーシブなハイブリッド学術イベントへの実験的試み。</span>
+        <span data-lang="tr">"Çevrimiçi katılımcılar da salondakilerle aynı deneyimi hak eder." — Kapsayıcı hibrit etkinliklere yönelik deneysel bir yaklaşım.</span>
+      </div>
+    </div>
+    <div class="home-r">
+      <div class="hnav-lbl">
+        <span data-lang="en" class="L">Quick Navigation</span>
+        <span data-lang="jp">クイックナビ</span>
+        <span data-lang="tr">Hızlı Gezinti</span>
+      </div>
+      <div class="hng">
+        <div class="hnc feat" onclick="go('program')">
+          <div class="hnc-ic">📋</div>
+          <div>
+            <div class="hnc-t"><span data-lang="en" class="L">Program</span><span data-lang="jp">プログラム</span><span data-lang="tr">Program</span></div>
+            <div class="hnc-s"><span data-lang="en" class="L">Day 1: Conference · Day 2: Field Training (Izmir hydraulic structures)</span><span data-lang="jp">1日目：会議 · 2日目：現地研修（イズミル水利構造物）</span><span data-lang="tr">1. Gün: Konferans · 2. Gün: Saha Eğitimi (İzmir su yapıları)</span></div>
+          </div>
+        </div>
+        <div class="hnc" onclick="go('about')">
+          <div class="hnc-ic">🌐</div>
+          <div class="hnc-t"><span data-lang="en" class="L">About</span><span data-lang="jp">概要</span><span data-lang="tr">Hakkında</span></div>
+          <div class="hnc-s"><span data-lang="en" class="L">Seminar overview &amp; hybrid format</span><span data-lang="jp">セミナー概要・ハイブリッド形式</span><span data-lang="tr">Seminer özeti ve hibrit format</span></div>
+        </div>
+        <div class="hnc" onclick="go('dates')">
+          <div class="hnc-ic">📅</div>
+          <div class="hnc-t"><span data-lang="en" class="L">Important Dates</span><span data-lang="jp">重要な日程</span><span data-lang="tr">Önemli Tarihler</span></div>
+          <div class="hnc-s"><span data-lang="en" class="L">Deadlines &amp; schedule</span><span data-lang="jp">締切・スケジュール</span><span data-lang="tr">Son tarihler ve takvim</span></div>
+        </div>
+        <div class="hnc" onclick="go('submission')">
+          <div class="hnc-ic">📄</div>
+          <div class="hnc-t"><span data-lang="en" class="L">Submission</span><span data-lang="jp">投稿</span><span data-lang="tr">Sunum</span></div>
+          <div class="hnc-s"><span data-lang="en" class="L">Abstract only · MDPI SI discounts</span><span data-lang="jp">要旨のみ · MDPI SI割引</span><span data-lang="tr">Yalnızca özet · MDPI indirimleri</span></div>
+        </div>
+        <div class="hnc" onclick="go('organizers')">
+          <div class="hnc-ic">👥</div>
+          <div class="hnc-t"><span data-lang="en" class="L">Organizers</span><span data-lang="jp">組織委員会</span><span data-lang="tr">Komite</span></div>
+          <div class="hnc-s"><span data-lang="en" class="L">Guest editors &amp; host institutions</span><span data-lang="jp">ゲストエディター・開催機関</span><span data-lang="tr">Editörler ve kurumlar</span></div>
+        </div>
+        <div class="hnc" onclick="go('sponsors')">
+          <div class="hnc-ic">🤝</div>
+          <div class="hnc-t"><span data-lang="en" class="L">Sponsors</span><span data-lang="jp">協賛</span><span data-lang="tr">Sponsorlar</span></div>
+          <div class="hnc-s"><span data-lang="en" class="L">Supporting organizations</span><span data-lang="jp">協賛機関一覧</span><span data-lang="tr">Destekleyen kuruluşlar</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="facts">
+    <div class="fact"><div class="fval">Sep 7–10</div><div class="flbl">2026</div></div>
+    <div class="fact"><div class="fval">2</div><div class="flbl"><span data-lang="en" class="L">Program Days</span><span data-lang="jp">プログラム日数</span><span data-lang="tr">Program Günü</span></div></div>
+    <div class="fact"><div class="fval">3</div><div class="flbl"><span data-lang="en" class="L">Languages (AI)</span><span data-lang="jp">対応言語（AI）</span><span data-lang="tr">Dil (YZ)</span></div></div>
+    <div class="fact"><div class="fval">MDPI</div><div class="flbl"><span data-lang="en" class="L">Buildings SI Linked</span><span data-lang="jp">Buildings SI 連携</span><span data-lang="tr">Buildings SI Bağlantılı</span></div></div>
+    <div class="fact"><div class="fval">1st</div><div class="flbl"><span data-lang="en" class="L">NDTSI Seminar</span><span data-lang="jp">第1回 NDTSI</span><span data-lang="tr">1. NDTSI Semineri</span></div></div>
+  </div>
+</div>
+
+<!-- ===================== ABOUT ===================== -->
+<div class="pg" id="pg-about">
+  <div class="about-hero">
+    <div class="ahi">
+      <div>
+        <div class="stag wh">NDTSI 2026</div>
+        <h2 class="stit wh"><span data-lang="en" class="L">About the <em>Seminar</em></span><span data-lang="jp">セミナーについて</span><span data-lang="tr">Seminer <em>Hakkında</em></span></h2>
+        <div class="div wh"></div>
+        <p class="sbody wh" data-lang="en" class="L">Organized within the JSPS Bilateral Program (Japan–Türkiye / TÜBİTAK), NDTSI 2026 is the inaugural edition of a bilateral seminar series connecting researchers from Niigata University Faculty of Agriculture and Ege University Faculty of Engineering. The seminar advances non-destructive testing, digital twin technologies, and sustainable infrastructure management.</p>
+        <p class="sbody wh" data-lang="jp">JSPS二国間プログラム（日本・トルコ / TÜBİTAK）の枠内で開催されるNDTSI 2026は、新潟大学農学部とエーゲ大学工学部の研究者を結ぶ二国間セミナーシリーズの第1回です。非破壊試験・デジタルツイン技術・持続可能なインフラ管理の最前線を推進します。</p>
+        <p class="sbody wh" data-lang="tr">JSPS İkili Programı (Japonya-Türkiye / TÜBİTAK) kapsamında düzenlenen NDTSI 2026, Niigata Üniversitesi Ziraat Fakültesi ve Ege Üniversitesi Mühendislik Fakültesi araştırmacılarını bir araya getiren ikili seminer serisinin ilk baskısıdır.</p>
+      </div>
+      <!-- ▼ ここに会議会場またはイズミルの水利構造物の全景写真を挿入 -->
+      <div class="img-ph" style="height:280px;border-radius:6px">
+        <div class="img-ph-icon">🏛️</div>
+        <div class="img-ph-note">
+          <span data-lang="en" class="L"><strong>Recommended image:</strong><br>Conference venue photo<br>or panoramic view of Izmir hydraulic structures</span>
+          <span data-lang="jp"><strong>推奨画像：</strong><br>会議会場の写真<br>またはイズミル水利構造物の全景</span>
+          <span data-lang="tr"><strong>Önerilen görsel:</strong><br>Konferans alanı fotoğrafı<br>veya İzmir su yapılarının panoramik görünümü</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="inn">
+      <div class="ig3">
+        <div class="ic">
+          <div class="ic-ic">🎯</div>
+          <div class="ic-t"><span data-lang="en" class="L">Objective</span><span data-lang="jp">目的</span><span data-lang="tr">Amaç</span></div>
+          <p class="ic-b" data-lang="en" class="L">Build a sustainable Japan–Türkiye bilateral research network in NDT and digital twin technologies. Establish a replicable hybrid event model for future editions.</p>
+          <p class="ic-b" data-lang="jp">NDT・デジタルツイン技術における日本・トルコ二国間研究ネットワークを構築し、次回以降も再現可能なハイブリッドイベントモデルを確立します。</p>
+          <p class="ic-b" data-lang="tr">NDT ve dijital ikiz alanında sürdürülebilir Japonya-Türkiye araştırma ağı kurmak; gelecek baskılar için tekrarlanabilir hibrit etkinlik modeli oluşturmak.</p>
+        </div>
+        <div class="ic">
+          <div class="ic-ic">📝</div>
+          <div class="ic-t"><span data-lang="en" class="L">Submission Format</span><span data-lang="jp">投稿形式</span><span data-lang="tr">Sunum Formatı</span></div>
+          <p class="ic-b" data-lang="en" class="L">Abstract submission only for the seminar. Those who wish may submit a full paper to the MDPI Buildings Special Issue. APC discounts are available upon request.</p>
+          <p class="ic-b" data-lang="jp">セミナーへの提出は要旨のみ。希望者のみFull paperをMDPIの小特集へ投稿できます。希望があればAPC割引を適用できます。</p>
+          <p class="ic-b" data-lang="tr">Seminere yalnızca özet gönderilir. İsteyen katılımcılar tam makale gönderebilir; talep hâlinde APC indirimi uygulanır.</p>
+        </div>
+        <div class="ic">
+          <div class="ic-ic">🏆</div>
+          <div class="ic-t"><span data-lang="en" class="L">Inaugural Edition</span><span data-lang="jp">第1回開催</span><span data-lang="tr">İlk Baskı</span></div>
+          <p class="ic-b" data-lang="en" class="L">NDTSI 2026 is the founding event of this seminar series. Its three-pillar hybrid model is designed to be adopted by future organizers at international academic events.</p>
+          <p class="ic-b" data-lang="jp">NDTSI 2026はシリーズの創設イベントです。3つの柱からなるハイブリッドモデルは、将来の国際学術イベント主催者が採用できるよう設計されています。</p>
+          <p class="ic-b" data-lang="tr">NDTSI 2026, serinin kurucu etkinliğidir. Üç direkli hibrit modeli, gelecekteki organizatörler tarafından uluslararası akademik etkinliklerde benimsenmek üzere tasarlanmıştır.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="motto">
+    <div class="mtxt" data-lang="en" class="L">"Online participants deserve the <em>same experience</em> as those in the room."</div>
+    <div class="mtxt" data-lang="jp">「オンライン参加者も現地と<em>変わらない体験</em>を。」</div>
+    <div class="mtxt" data-lang="tr">"Çevrimiçi katılımcılar da salondakilerle <em>aynı deneyimi</em> hak eder."</div>
+    <div class="mnote"><span data-lang="en" class="L">Experimental hybrid format · NDTSI 2026</span><span data-lang="jp">実験的ハイブリッド形式 · NDTSI 2026</span><span data-lang="tr">Deneysel hibrit format · NDTSI 2026</span></div>
+  </div>
+
+  <div class="sec" style="background:var(--crd)">
+    <div class="inn">
+      <div class="stag"><span data-lang="en" class="L">Hybrid Technology</span><span data-lang="jp">ハイブリッド技術</span><span data-lang="tr">Hibrit Teknoloji</span></div>
+      <h2 class="stit"><span data-lang="en" class="L">Three Pillars of <em>Equal Experience</em></span><span data-lang="jp"><em>同等体験</em>を実現する3つの柱</span><span data-lang="tr"><em>Eşit Deneyimin</em> Üç Direği</span></h2>
+      <div class="div t"></div>
+      <!-- ▼ 3つの柱の概念図（システム構成図）を挿入 例: AI翻訳→アバター→3D再構成の流れを示した図 -->
+      <div class="img-ph" style="height:120px;margin-bottom:1.5rem">
+        <div class="img-ph-icon">🖼️</div>
+        <div class="img-ph-note">
+          <span data-lang="en" class="L"><strong>Recommended figure:</strong> System overview diagram — showing the three pillars (AI translation → Avatar platform → 3D field streaming) and how they connect in-person and online participants</span>
+          <span data-lang="jp"><strong>推奨図：</strong>システム概要図 — 3つの柱（AI翻訳→アバタープラットフォーム→3Dフィールド配信）と対面・オンライン参加者の接続を示す概念図</span>
+          <span data-lang="tr"><strong>Önerilen şekil:</strong> Sistem genel bakış diyagramı — üç direği (YZ çevirisi → Avatar platformu → 3B saha yayını) ve bunların yüz yüze/çevrimiçi katılımcıları nasıl bağladığını gösteren diyagram</span>
+        </div>
+      </div>
+      <div class="pg3">
+        <div class="pil">
+          <div class="pn">①</div>
+          <div class="pt"><span data-lang="en" class="L">Trilingual AI Communication</span><span data-lang="jp">三言語AIコミュニケーション</span><span data-lang="tr">Üç Dilli YZ İletişimi</span></div>
+          <p class="pb" data-lang="en" class="L">Real-time AI-assisted interpretation across Japanese, English and Turkish. Domain-specific glossaries pre-registered from submitted abstracts ensure accurate translation of NDT terminology.</p>
+          <p class="pb" data-lang="jp">日本語・英語・トルコ語のリアルタイムAI翻訳。提出アブストラクトから専門用語を事前登録したカスタム辞書で高精度翻訳を実現します。</p>
+          <p class="pb" data-lang="tr">Japonca, İngilizce ve Türkçe arasında gerçek zamanlı YZ tercümesi. Gönderilen özetlerden önceden kaydedilen sözlükler NDT terminolojisinin doğru çevrilmesini sağlar.</p>
+        </div>
+        <div class="pil">
+          <div class="pn">②</div>
+          <div class="pt"><span data-lang="en" class="L">Avatar-Based Poster Session</span><span data-lang="jp">アバター型ポスターセッション</span><span data-lang="tr">Avatar Tabanlı Poster Oturumu</span></div>
+          <p class="pb" data-lang="en" class="L">Online participants navigate the venue via a third-person-perspective avatar with proximity-based voice chat — replicating spontaneous "hallway conversations" that conventional video conferencing cannot provide. (Ref: <a class="ext-link" href="https://www.popopo.com/ja/" target="_blank" rel="noopener noreferrer">platform</a>)</p>
+          <p class="pb" data-lang="jp">オンライン参加者は三人称視点アバターで会場を移動。近接音声会話で、従来のビデオ会議では実現できなかった自然な立ち話が可能になります。（参考：<a class="ext-link" href="https://www.popopo.com/ja/" target="_blank" rel="noopener noreferrer">プラットフォーム</a>）</p>
+          <p class="pb" data-lang="tr">Çevrimiçi katılımcılar, yakınlık sesli sohbetiyle üçüncü şahıs avatar aracılığıyla mekânda gezinir — geleneksel video konferansın sunamadığı anlık sohbetleri mümkün kılar. (<a class="ext-link" href="https://www.popopo.com/ja/" target="_blank" rel="noopener noreferrer">platform</a>)</p>
+        </div>
+        <div class="pil">
+          <div class="pn">③</div>
+          <div class="pt"><span data-lang="en" class="L">Live 3D Field Training</span><span data-lang="jp">リアルタイム3Dフィールド訓練</span><span data-lang="tr">Canlı 3B Saha Eğitimi</span></div>
+          <p class="pb" data-lang="en" class="L">360° cameras capture field data processed via Gaussian Splatting and Structure-from-Motion in real time. As the survey progresses, the digital space fills with high-fidelity texture — participants worldwide share the "discovery moment" live.</p>
+          <p class="pb" data-lang="jp">360°カメラのデータをGaussian SplattingとSfMでリアルタイム解析。調査が進むにつれ空間が高精細テクスチャで塗りつぶされ、世界中の参加者が「発見の瞬間」をリアルタイムで共有します。</p>
+          <p class="pb" data-lang="tr">360° kameralar Gaussian Splatting ve SfM ile gerçek zamanlı işlenir. Araştırma ilerledikçe dijital alan yüksek çözünürlüklü dokuyla dolarak katılımcılar "keşif anını" canlı paylaşır.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== IMPORTANT DATES ===================== -->
+<div class="pg" id="pg-dates">
+  <div class="sec">
+    <div class="inn">
+      <div class="stag"><span data-lang="en" class="L">Schedule</span><span data-lang="jp">スケジュール</span><span data-lang="tr">Takvim</span></div>
+      <h2 class="stit"><span data-lang="en" class="L">Important <em>Dates</em></span><span data-lang="jp">重要な<em>日程</em></span><span data-lang="tr">Önemli <em>Tarihler</em></span></h2>
+      <div class="div"></div>
+      <p class="sbody" data-lang="en" class="L">All deadlines are listed below. Exact dates for abstract submission and registration will be announced soon. The seminar dates (Sep 7–10, 2026) and MDPI Buildings Special Issue deadline (Sep 30, 2026) are confirmed.</p>
+      <p class="sbody" data-lang="jp">以下に全締切日を掲載しています。要旨提出・参加登録の正確な日程は追って発表します。セミナー日程（2026年9月7–10日）とMDPI Buildings SIの締切（2026年9月30日）は確定しています。</p>
+      <p class="sbody" data-lang="tr">Tüm son tarihler aşağıda listelenmiştir. Özet gönderimi ve kayıt için kesin tarihler yakında duyurulacaktır. Seminer tarihleri (7–10 Eylül 2026) ve MDPI Buildings SI son tarihi (30 Eylül 2026) kesinleşmiştir.</p>
+      <div class="drow">
+        <div class="dc">
+          <div class="dclbl"><span data-lang="en" class="L">Abstract Submission Opens</span><span data-lang="jp">要旨受付開始</span><span data-lang="tr">Özet Gönderimi Açılıyor</span></div>
+          <div class="dcn"><span data-lang="en" class="L">Portal Opens</span><span data-lang="jp">投稿受付開始</span><span data-lang="tr">Portal Açılıyor</span></div>
+          <div class="dcv">TBA</div>
+          <div class="dcnt"><span data-lang="en" class="L">To be announced</span><span data-lang="jp">調整中</span><span data-lang="tr">Duyurulacak</span></div>
+        </div>
+        <div class="dc">
+          <div class="dclbl"><span data-lang="en" class="L">Abstract Deadline</span><span data-lang="jp">要旨提出期限</span><span data-lang="tr">Özet Son Tarihi</span></div>
+          <div class="dcn"><span data-lang="en" class="L">Final Submission</span><span data-lang="jp">最終提出期限</span><span data-lang="tr">Son Gönderim</span></div>
+          <div class="dcv">TBA</div>
+          <div class="dcnt"><span data-lang="en" class="L">To be announced</span><span data-lang="jp">調整中</span><span data-lang="tr">Duyurulacak</span></div>
+        </div>
+        <div class="dc">
+          <div class="dclbl"><span data-lang="en" class="L">Acceptance Notification</span><span data-lang="jp">採択通知</span><span data-lang="tr">Kabul Bildirimi</span></div>
+          <div class="dcn"><span data-lang="en" class="L">Authors Notified</span><span data-lang="jp">採択結果通知</span><span data-lang="tr">Yazarlar Bildirildi</span></div>
+          <div class="dcv">TBA</div>
+          <div class="dcnt"><span data-lang="en" class="L">To be announced</span><span data-lang="jp">調整中</span><span data-lang="tr">Duyurulacak</span></div>
+        </div>
+        <div class="dc">
+          <div class="dclbl"><span data-lang="en" class="L">Early Registration</span><span data-lang="jp">事前登録期限</span><span data-lang="tr">Erken Kayıt</span></div>
+          <div class="dcn"><span data-lang="en" class="L">Registration Deadline</span><span data-lang="jp">参加登録締切</span><span data-lang="tr">Kayıt Son Tarihi</span></div>
+          <div class="dcv">TBA</div>
+          <div class="dcnt"><span data-lang="en" class="L">To be announced</span><span data-lang="jp">調整中</span><span data-lang="tr">Duyurulacak</span></div>
+        </div>
+        <div class="dc hl">
+          <div class="dclbl"><span data-lang="en" class="L">Seminar — Day 1</span><span data-lang="jp">セミナー 1日目</span><span data-lang="tr">Seminer — 1. Gün</span></div>
+          <div class="dcn"><span data-lang="en" class="L">Conference Sessions</span><span data-lang="jp">会議セッション</span><span data-lang="tr">Konferans Oturumları</span></div>
+          <div class="dcv">Sep 7, 2026</div>
+          <div class="dcnt">Izmir, Türkiye + Online</div>
+        </div>
+        <div class="dc hl">
+          <div class="dclbl"><span data-lang="en" class="L">Seminar — Day 2</span><span data-lang="jp">セミナー 2日目</span><span data-lang="tr">Seminer — 2. Gün</span></div>
+          <div class="dcn"><span data-lang="en" class="L">Field Training</span><span data-lang="jp">現地研修</span><span data-lang="tr">Saha Eğitimi</span></div>
+          <div class="dcv">Sep 8, 2026</div>
+          <div class="dcnt"><span data-lang="en" class="L">Izmir hydraulic structures</span><span data-lang="jp">イズミル水利構造物</span><span data-lang="tr">İzmir su yapıları</span></div>
+        </div>
+        <div class="dc">
+          <div class="dclbl">MDPI Buildings SI</div>
+          <div class="dcn"><span data-lang="en" class="L">Full Paper Deadline</span><span data-lang="jp">Full paper 締切</span><span data-lang="tr">Tam Makale Son Tarihi</span></div>
+          <div class="dcv">Sep 30, 2026</div>
+          <div class="dcnt"><span data-lang="en" class="L">Confirmed</span><span data-lang="jp">確定</span><span data-lang="tr">Onaylandı</span></div>
+        </div>
+        <div class="dc">
+          <div class="dclbl"><span data-lang="en" class="L">Post-Seminar</span><span data-lang="jp">セミナー後</span><span data-lang="tr">Seminer Sonrası</span></div>
+          <div class="dcn"><span data-lang="en" class="L">Recordings &amp; Proceedings</span><span data-lang="jp">録画・議事録公開</span><span data-lang="tr">Kayıtlar ve Bildiriler</span></div>
+          <div class="dcv">TBA</div>
+          <div class="dcnt"><span data-lang="en" class="L">To be announced</span><span data-lang="jp">調整中</span><span data-lang="tr">Duyurulacak</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== PROGRAM ===================== -->
+<div class="pg" id="pg-program">
+  <div class="sec">
+    <div class="inn">
+      <div class="stag"><span data-lang="en" class="L">Program</span><span data-lang="jp">プログラム</span><span data-lang="tr">Program</span></div>
+      <h2 class="stit"><span data-lang="en" class="L">Seminar <em>Program</em></span><span data-lang="jp">セミナー<em>プログラム</em></span><span data-lang="tr">Seminer <em>Programı</em></span></h2>
+      <div class="div"></div>
+      <p class="sbody" data-lang="en" class="L">The seminar runs over two days. Day 1 is a full conference day with keynote lectures, oral sessions, and a hybrid poster session. Day 2 is an immersive field training day at hydraulic structures in the Izmir region, with live 3D streaming for online participants.</p>
+      <p class="sbody" data-lang="jp">セミナーは2日間構成です。1日目は基調講演・口頭発表・ハイブリッドポスターセッションを含む会議日。2日目はイズミル地域の水利構造物での現地研修で、オンライン参加者にはリアルタイム3D配信で同等の体験を提供します。</p>
+      <p class="sbody" data-lang="tr">Seminer iki gün sürmektedir. 1. Gün; açılış konuşmaları, sözlü oturumlar ve hibrit poster oturumundan oluşan tam kapsamlı bir konferans günüdür. 2. Gün; çevrimiçi katılımcılara canlı 3B yayınla eşit deneyim sunan, İzmir bölgesindeki su yapılarında yoğun bir saha eğitimi günüdür.</p>
+
+      <!-- KEYNOTE SPEAKERS -->
+      <div class="stag" style="margin-top:1rem"><span data-lang="en" class="L">Keynote Speakers</span><span data-lang="jp">基調講演者</span><span data-lang="tr">Açılış Konuşmacıları</span></div>
+      <div class="kgrid">
+        <!-- Coming Soon ×3 -->
+        <div class="kcard kcs">
+          <!-- ▼ 招待基調講演者が決まり次第、写真・氏名・所属を挿入 -->
+          <div class="kphoto"><div class="img-ph" style="height:160px;border-radius:0;border:none;border-bottom:1px solid var(--br)"><div class="img-ph-icon">👤</div><div class="img-ph-note"><span data-lang="en" class="L">Keynote speaker photo<br>(to be inserted)</span><span data-lang="jp">基調講演者の写真<br>（挿入予定）</span><span data-lang="tr">Konuşmacı fotoğrafı<br>(eklenecek)</span></div></div></div>
+          <div class="kbody"><div class="kcs-lbl">Coming Soon</div><div class="kcs-txt"><span data-lang="en" class="L">Keynote Speaker TBA<br>Name · Affiliation · Title</span><span data-lang="jp">基調講演者 決定次第掲載<br>氏名・所属・講演題目</span><span data-lang="tr">Konuşmacı TBA<br>Ad · Kurum · Başlık</span></div></div>
+        </div>
+        <div class="kcard kcs">
+          <div class="kphoto"><div class="img-ph" style="height:160px;border-radius:0;border:none;border-bottom:1px solid var(--br)"><div class="img-ph-icon">👤</div><div class="img-ph-note"><span data-lang="en" class="L">Keynote speaker photo<br>(to be inserted)</span><span data-lang="jp">基調講演者の写真<br>（挿入予定）</span><span data-lang="tr">Konuşmacı fotoğrafı<br>(eklenecek)</span></div></div></div>
+          <div class="kbody"><div class="kcs-lbl">Coming Soon</div><div class="kcs-txt"><span data-lang="en" class="L">Keynote Speaker TBA<br>Name · Affiliation · Title</span><span data-lang="jp">基調講演者 決定次第掲載<br>氏名・所属・講演題目</span><span data-lang="tr">Konuşmacı TBA<br>Ad · Kurum · Başlık</span></div></div>
+        </div>
+        <div class="kcard kcs">
+          <div class="kphoto"><div class="img-ph" style="height:160px;border-radius:0;border:none;border-bottom:1px solid var(--br)"><div class="img-ph-icon">👤</div><div class="img-ph-note"><span data-lang="en" class="L">Keynote speaker photo<br>(to be inserted)</span><span data-lang="jp">基調講演者の写真<br>（挿入予定）</span><span data-lang="tr">Konuşmacı fotoğrafı<br>(eklenecek)</span></div></div></div>
+          <div class="kbody"><div class="kcs-lbl">Coming Soon</div><div class="kcs-txt"><span data-lang="en" class="L">Keynote Speaker TBA<br>Name · Affiliation · Title</span><span data-lang="jp">基調講演者 決定次第掲載<br>氏名・所属・講演題目</span><span data-lang="tr">Konuşmacı TBA<br>Ad · Kurum · Başlık</span></div></div>
+        </div>
+      </div>
+
+      <!-- DAY 1 -->
+      <div class="pday" style="margin-top:2rem">
+        <div class="pdh">
+          <div class="pdnum"><span data-lang="en" class="L">Day 1</span><span data-lang="jp">1日目</span><span data-lang="tr">1. Gün</span></div>
+          <div class="pdt"><span data-lang="en" class="L">Conference · Oral Sessions &amp; Poster</span><span data-lang="jp">会議 · 口頭発表 &amp; ポスターセッション</span><span data-lang="tr">Konferans · Sözlü Oturumlar &amp; Poster</span></div>
+          <div class="pdd">September 7, 2026</div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Opening Ceremony</span><span data-lang="jp">開会式</span><span data-lang="tr">Açılış Töreni</span></div>
+            <div class="pdet"><span data-lang="en" class="L">Welcome addresses from Niigata University (Faculty of Agriculture) and Ege University (Faculty of Engineering). Introduction to the JSPS Bilateral Program framework.</span><span data-lang="jp">新潟大学農学部・エーゲ大学工学部からの歓迎挨拶。JSPS二国間プログラムの枠組み紹介。</span><span data-lang="tr">Niigata Üniversitesi (Ziraat Fakültesi) ve Ege Üniversitesi (Mühendislik Fakültesi)'nden hoş geldiniz konuşmaları. JSPS İkili Programı çerçevesine giriş.</span></div>
+            <span class="ptag pt-c"><span data-lang="en" class="L">Conference</span><span data-lang="jp">会議</span><span data-lang="tr">Konferans</span></span>
+          </div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Keynote Lectures (3 speakers, TBA)</span><span data-lang="jp">基調講演（3名、調整中）</span><span data-lang="tr">Açılış Konuşmaları (3 konuşmacı, TBA)</span></div>
+            <div class="pdet"><span data-lang="en" class="L">Invited keynote presentations on NDT, digital twin technologies, and sustainable infrastructure. Speakers from Japan, Türkiye, and international institutions. Trilingual AI interpretation active throughout.</span><span data-lang="jp">NDT・デジタルツイン技術・持続可能なインフラに関する招待基調講演。日本・トルコ・国際機関から演者招聘予定。三言語AIリアルタイム翻訳を通じて実施。</span><span data-lang="tr">NDT, dijital ikiz teknolojileri ve sürdürülebilir altyapı üzerine davetli açılış konuşmaları. Japonya, Türkiye ve uluslararası kurumlardan konuşmacılar. Üç dilli YZ tercümesi aktif.</span></div>
+            <span class="ptag pt-k"><span data-lang="en" class="L">Keynote</span><span data-lang="jp">基調講演</span><span data-lang="tr">Keynote</span></span>
+          </div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Oral Presentation Sessions</span><span data-lang="jp">口頭発表セッション</span><span data-lang="tr">Sözlü Sunum Oturumları</span></div>
+            <div class="pdet"><span data-lang="en" class="L">Thematic sessions covering: (1) NDT methods for civil &amp; agricultural infrastructure, (2) Digital twin and 3D reconstruction, (3) AI and machine learning for infrastructure management. Simultaneous AI interpretation in JP / EN / TR.</span><span data-lang="jp">テーマ別セッション：(1) 土木・農業インフラのNDT手法、(2) デジタルツインと3D再構成、(3) インフラ管理のAI・機械学習。JP / EN / TR 三言語AI同時通訳。</span><span data-lang="tr">Tematik oturumlar: (1) Sivil ve tarımsal altyapı için NDT yöntemleri, (2) Dijital ikiz ve 3B yeniden yapılandırma, (3) Altyapı yönetimi için YZ ve makine öğrenmesi. JP / EN / TR eş zamanlı YZ tercümesi.</span></div>
+            <span class="ptag pt-c"><span data-lang="en" class="L">Conference</span><span data-lang="jp">会議</span><span data-lang="tr">Konferans</span></span>
+          </div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Poster Session — Avatar Platform (Hybrid)</span><span data-lang="jp">ポスターセッション — アバタープラットフォーム（ハイブリッド）</span><span data-lang="tr">Poster Oturumu — Avatar Platformu (Hibrit)</span></div>
+            <div class="pdet"><span data-lang="en" class="L">In-person and online participants interact simultaneously. Online attendees navigate the poster hall via a third-person avatar with proximity voice chat — enabling spontaneous discussion across both modes. (<a class="ext-link" href="https://www.popopo.com/ja/" target="_blank" rel="noopener noreferrer">Platform details</a>)</span><span data-lang="jp">対面・オンライン参加者が同時にインタラクション。オンライン参加者は三人称アバターで近接音声会話付きのポスター会場を移動できます。（<a class="ext-link" href="https://www.popopo.com/ja/" target="_blank" rel="noopener noreferrer">プラットフォーム詳細</a>）</span><span data-lang="tr">Yüz yüze ve çevrimiçi katılımcılar eş zamanlı etkileşime girer. Çevrimiçi katılımcılar, yakınlık sesli sohbetiyle üçüncü şahıs avatar aracılığıyla poster salonunda gezinir. (<a class="ext-link" href="https://www.popopo.com/ja/" target="_blank" rel="noopener noreferrer">Platform detayları</a>)</span></div>
+            <span class="ptag pt-c"><span data-lang="en" class="L">Hybrid Poster</span><span data-lang="jp">ハイブリッドポスター</span><span data-lang="tr">Hibrit Poster</span></span>
+          </div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Networking Reception</span><span data-lang="jp">ネットワーキングレセプション</span><span data-lang="tr">Ağ Oluşturma Resepsiyonu</span></div>
+            <div class="pdet"><span data-lang="en" class="L">Dinner and informal networking for in-person attendees; online social space available for remote participants via the avatar platform.</span><span data-lang="jp">対面参加者向けの夕食・交流会。オンライン参加者向けのアバタープラットフォーム上のソーシャルスペースも用意。</span><span data-lang="tr">Yüz yüze katılımcılar için yemek ve gayri resmi ağ kurma; uzak katılımcılar için avatar platformu üzerinden çevrimiçi sosyal alan.</span></div>
+            <span class="ptag pt-s"><span data-lang="en" class="L">Social</span><span data-lang="jp">交流</span><span data-lang="tr">Sosyal</span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 2 -->
+      <div class="pday">
+        <div class="pdh">
+          <div class="pdnum"><span data-lang="en" class="L">Day 2</span><span data-lang="jp">2日目</span><span data-lang="tr">2. Gün</span></div>
+          <div class="pdt"><span data-lang="en" class="L">Field Training · Hydraulic Structures of Izmir</span><span data-lang="jp">現地研修 · イズミルの水利構造物</span><span data-lang="tr">Saha Eğitimi · İzmir Su Yapıları</span></div>
+          <div class="pdd">September 8, 2026</div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Departure &amp; Site Briefing</span><span data-lang="jp">出発・現地ブリーフィング</span><span data-lang="tr">Hareket ve Saha Brifing</span></div>
+            <div class="pdet"><span data-lang="en" class="L">Transfer to the hydraulic structure site in the Izmir region. Site safety briefing and introduction to the inspection methodology for on-site and online participants.</span><span data-lang="jp">イズミル地域の水利構造物サイトへ移動。現地安全ブリーフィングおよび現地・オンライン参加者への点検方法論の紹介。</span><span data-lang="tr">İzmir bölgesindeki su yapısı sahasına transfer. Saha güvenlik brifing ve yerinde ve çevrimiçi katılımcılara muayene metodolojisinin tanıtımı.</span></div>
+            <span class="ptag pt-f"><span data-lang="en" class="L">Field</span><span data-lang="jp">現地</span><span data-lang="tr">Saha</span></span>
+          </div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Live 3D Scanning — Gaussian Splatting / SfM</span><span data-lang="jp">リアルタイム3Dスキャン — Gaussian Splatting / SfM</span><span data-lang="tr">Canlı 3B Tarama — Gaussian Splatting / SfM</span></div>
+            <div class="pdet"><span data-lang="en" class="L">360° cameras scan the hydraulic structures. Data is processed on-site via Gaussian Splatting and Structure-from-Motion and streamed in real time to the online platform. The digital space gradually fills with high-fidelity texture as the survey progresses — all participants share the "discovery moment" live.</span><span data-lang="jp">360°カメラで水利構造物をスキャン。Gaussian SplattingとSfMを用いて現地でリアルタイム処理し、オンラインプラットフォームに配信。調査の進行とともに高精細テクスチャが空間を塗りつぶし、全参加者が「発見の瞬間」を共有します。</span><span data-lang="tr">360° kameralar su yapılarını tarar. Veriler yerinde Gaussian Splatting ve SfM ile gerçek zamanlı işlenerek çevrimiçi platforma yayınlanır. Araştırma ilerledikçe dijital alan yüksek çözünürlüklü dokuyla dolarak tüm katılımcılar "keşif anını" canlı paylaşır.</span></div>
+            <span class="ptag pt-f"><span data-lang="en" class="L">Field · 3D Live</span><span data-lang="jp">現地・3Dライブ</span><span data-lang="tr">Saha · 3B Canlı</span></span>
+          </div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Live NDT Demonstration</span><span data-lang="jp">NDTライブデモンストレーション</span><span data-lang="tr">Canlı NDT Demonstrasyonu</span></div>
+            <div class="pdet"><span data-lang="en" class="L">On-site non-destructive testing demonstration (acoustic emission, ultrasonic, impact-echo, etc.). Real-time data shared with online participants. AI interpretation active in JP / EN / TR for simultaneous Q&amp;A.</span><span data-lang="jp">非破壊試験デモ（音響放射、超音波、衝撃弾性波等）を現地で実施。リアルタイムでデータ共有。JP / EN / TR 三言語AI翻訳によるリアルタイムQ&amp;A。</span><span data-lang="tr">Yerinde tahribatsız muayene demosu (akustik emisyon, ultrasonik, darbe-eko vb.). Gerçek zamanlı veri paylaşımı. JP / EN / TR eş zamanlı YZ tercümesi ile Q&amp;A.</span></div>
+            <span class="ptag pt-f"><span data-lang="en" class="L">Field · NDT</span><span data-lang="jp">現地・NDT</span><span data-lang="tr">Saha · NDT</span></span>
+          </div>
+        </div>
+        <div class="pslot">
+          <div class="ptm">TBA</div>
+          <div>
+            <div class="pev"><span data-lang="en" class="L">Technical Discussion &amp; Closing Ceremony</span><span data-lang="jp">技術討論・閉会式</span><span data-lang="tr">Teknik Tartışma ve Kapanış Töreni</span></div>
+            <div class="pdet"><span data-lang="en" class="L">Joint discussion on field observations — combined in-person and online session. Closing remarks, next-steps for MDPI Special Issue submissions, and future collaboration planning.</span><span data-lang="jp">現地観察の合同技術討論（対面・オンライン合同セッション）。閉会の挨拶、MDPI Special Issue投稿の今後のステップ、将来の協力計画。</span><span data-lang="tr">Saha gözlemlerine ilişkin ortak teknik tartışma — yüz yüze ve çevrimiçi birleşik oturum. Kapanış konuşmaları, MDPI Özel Sayısı gönderim adımları ve gelecek iş birliği planlaması.</span></div>
+            <span class="ptag pt-c"><span data-lang="en" class="L">Closing</span><span data-lang="jp">閉会</span><span data-lang="tr">Kapanış</span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ▼ Day 2 フィールドサイトの写真（3枚並列） -->
+      <div class="stag" style="margin-top:.5rem"><span data-lang="en" class="L">Field Site — Izmir Region</span><span data-lang="jp">現地フィールド — イズミル地域</span><span data-lang="tr">Saha Alanı — İzmir Bölgesi</span></div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:.8rem">
+        <div class="img-ph" style="height:180px;border-radius:4px">
+          <div class="img-ph-icon">🌊</div>
+          <div class="img-ph-note"><span data-lang="en" class="L"><strong>Insert photo:</strong> Hydraulic structure / Dam exterior</span><span data-lang="jp"><strong>写真挿入：</strong>水利構造物 / ダム外観</span><span data-lang="tr"><strong>Fotoğraf ekle:</strong> Su yapısı / Baraj dışı görünümü</span></div>
+        </div>
+        <div class="img-ph" style="height:180px;border-radius:4px">
+          <div class="img-ph-icon">🔬</div>
+          <div class="img-ph-note"><span data-lang="en" class="L"><strong>Insert photo:</strong> NDT field measurement scene</span><span data-lang="jp"><strong>写真挿入：</strong>NDT現地計測シーン</span><span data-lang="tr"><strong>Fotoğraf ekle:</strong> NDT saha ölçüm sahnesi</span></div>
+        </div>
+        <div class="img-ph" style="height:180px;border-radius:4px">
+          <div class="img-ph-icon">🗺️</div>
+          <div class="img-ph-note"><span data-lang="en" class="L"><strong>Insert photo / map:</strong> Izmir region aerial or map view</span><span data-lang="jp"><strong>写真・地図挿入：</strong>イズミル地域の航空写真または地図</span><span data-lang="tr"><strong>Fotoğraf / harita ekle:</strong> İzmir bölgesi hava görüntüsü veya harita</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== SUBMISSION ===================== -->
+<div class="pg" id="pg-submission">
+  <div class="sec">
+    <div class="inn">
+      <div class="stag"><span data-lang="en" class="L">Submission</span><span data-lang="jp">投稿案内</span><span data-lang="tr">Sunum Bilgisi</span></div>
+      <h2 class="stit"><span data-lang="en" class="L">Abstract Submission &amp; <em>Publication</em></span><span data-lang="jp">要旨投稿・<em>出版</em></span><span data-lang="tr">Özet Gönderimi &amp; <em>Yayın</em></span></h2>
+      <div class="div"></div>
+      <div class="subg">
+        <div>
+          <p class="sbody" data-lang="en" class="L">The seminar accepts <strong>abstract submissions only</strong>. Those who wish may submit a full paper to the MDPI Buildings Special Issue. APC discounts are available upon request — please contact us for details.</p>
+          <p class="sbody" data-lang="jp">セミナーへの提出は<strong>要旨のみ</strong>です。希望者のみFull paperをMDPIの小特集へ投稿できます。希望があればAPC割引を適用できます。詳細はContactまでご連絡ください。</p>
+          <p class="sbody" data-lang="tr">Seminer <strong>yalnızca özet kabul eder</strong>. İsteyen katılımcılar MDPI Buildings Özel Sayısı'na tam makale gönderebilir. Talep hâlinde APC indirimi uygulanır — ayrıntılar için iletişime geçin.</p>
+          <div class="flow">
+            <div class="fstep">
+              <div class="fnum">1</div>
+              <div class="fbody">
+                <div class="ftit"><span data-lang="en" class="L">Submit Abstract</span><span data-lang="jp">要旨を提出</span><span data-lang="tr">Özet Gönder</span></div>
+                <p class="fdesc" data-lang="en" class="L">Submit your abstract to the NDTSI 2026 portal (deadline TBA). Abstracts should be 200–300 words covering background, methods, and key results.</p>
+                <p class="fdesc" data-lang="jp">NDTSI 2026ポータルに要旨を提出（締切調整中）。背景・方法・主要結果を含む200–300語の要旨。</p>
+                <p class="fdesc" data-lang="tr">NDTSI 2026 portalına özet gönderin (son tarih TBA). Arka plan, yöntemler ve temel sonuçları kapsayan 200–300 kelimelik özet.</p>
+              </div>
+            </div>
+            <div class="fstep">
+              <div class="fnum">2</div>
+              <div class="fbody">
+                <div class="ftit"><span data-lang="en" class="L">Present at the Seminar</span><span data-lang="jp">セミナーで発表</span><span data-lang="tr">Seminerde Sun</span></div>
+                <p class="fdesc" data-lang="en" class="L">Oral presentation or poster — in person in Izmir or online via the hybrid avatar platform. Both modes receive equal visibility and interaction.</p>
+                <p class="fdesc" data-lang="jp">イズミルでの対面またはハイブリッドアバタープラットフォームでのオンラインによる口頭発表またはポスター発表。どちらも同等の可視性とインタラクションを確保。</p>
+                <p class="fdesc" data-lang="tr">İzmir'de yüz yüze veya hibrit avatar platformu aracılığıyla çevrimiçi sözlü sunum ya da poster. Her iki mod da eşit görünürlük ve etkileşim alır.</p>
+              </div>
+            </div>
+            <div class="fstep">
+              <div class="fnum">3</div>
+              <div class="fbody">
+                <div class="ftit"><span data-lang="en" class="L">Submit Full Paper to MDPI Buildings SI (Optional)</span><span data-lang="jp">MDPI Buildings SIにFull paper投稿（任意）</span><span data-lang="tr">MDPI Buildings SI'ya Tam Makale Gönder (İsteğe Bağlı)</span></div>
+                <p class="fdesc" data-lang="en" class="L">After the seminar, you may submit your full paper to the MDPI Buildings Special Issue (<a class="ext-link" href="https://www.mdpi.com/journal/buildings/special_issues/E942NPK4A9" target="_blank" rel="noopener noreferrer">mdpi.com/si/274892</a>). APC discounts are available for participants — please <a class="ext-link" href="#" onclick="copyEmail();return false;">contact us</a> for details.</p>
+                <p class="fdesc" data-lang="jp">セミナー後、希望者はMDPI Buildings Special Issue（<a class="ext-link" href="https://www.mdpi.com/journal/buildings/special_issues/E942NPK4A9" target="_blank" rel="noopener noreferrer">mdpi.com/si/274892</a>）にFull paperを投稿できます。参加者にはAPC割引が適用されます。詳細は<a class="ext-link" href="#" onclick="copyEmail();return false;">Contactまでご連絡ください</a>。</p>
+                <p class="fdesc" data-lang="tr">Seminer sonrası, tam makalenizi isteğe bağlı olarak MDPI Buildings Özel Sayısı'na (<a class="ext-link" href="https://www.mdpi.com/journal/buildings/special_issues/E942NPK4A9" target="_blank" rel="noopener noreferrer">mdpi.com/si/274892</a>) gönderebilirsiniz. Katılımcılara APC indirimi uygulanmaktadır — ayrıntılar için <a class="ext-link" href="#" onclick="copyEmail();return false;">iletişime geçin</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="mcard">
+            <div class="mlbl">MDPI Buildings · Special Issue</div>
+            <div class="mname">Digital Twins for Civil &amp; Industrial Structures</div>
+            <p class="mdesc" data-lang="en" class="L">Data-Physics Fusion-Driven Methods for Hazard Risk Management. Linked publication venue for all NDTSI 2026 participants. (<a class="ext-link" style="color:var(--gdl)" href="https://www.mdpi.com/journal/buildings/special_issues/E942NPK4A9" target="_blank" rel="noopener noreferrer">View Special Issue →</a>)</p>
+            <p class="mdesc" data-lang="jp">ハザードリスク管理のためのデータ・物理融合手法。NDTSI 2026参加者全員向けの連携出版媒体。（<a class="ext-link" style="color:var(--gdl)" href="https://www.mdpi.com/journal/buildings/special_issues/E942NPK4A9" target="_blank" rel="noopener noreferrer">Special Issueを見る →</a>）</p>
+            <p class="mdesc" data-lang="tr">Tehlike Risk Yönetimi için Veri-Fizik Füzyon Güdümlü Yöntemler. Tüm NDTSI 2026 katılımcıları için bağlantılı yayın. (<a class="ext-link" style="color:var(--gdl)" href="https://www.mdpi.com/journal/buildings/special_issues/E942NPK4A9" target="_blank" rel="noopener noreferrer">Özel Sayıyı Gör →</a>)</p>
+            <div class="mst">
+              <div class="msti"><div class="mstv">3.1</div><div class="mstl">Impact Factor</div></div>
+              <div class="msti"><div class="mstv">4.4</div><div class="mstl">CiteScore</div></div>
+              <div class="msti"><div class="mstv">Sep 30</div><div class="mstl">Deadline 2026</div></div>
+            </div>
+          </div>
+
+          <div class="stag"><span data-lang="en" class="L">APC Discount for Participants</span><span data-lang="jp">参加者向けAPC割引</span><span data-lang="tr">Katılımcılara APC İndirimi</span></div>
+          <table class="atbl">
+            <thead><tr>
+              <th><span data-lang="en" class="L">Category</span><span data-lang="jp">区分</span><span data-lang="tr">Kategori</span></th>
+              <th><span data-lang="en" class="L">Discount</span><span data-lang="jp">割引</span><span data-lang="tr">İndirim</span></th>
+            </tr></thead>
+            <tbody>
+              <tr><td><span data-lang="en" class="L">Invited Speakers</span><span data-lang="jp">招待講演者</span><span data-lang="tr">Davetli Konuşmacılar</span></td><td><span class="bd bt">50%</span></td></tr>
+              <tr><td><span data-lang="en" class="L">General Participants</span><span data-lang="jp">一般参加者</span><span data-lang="tr">Genel Katılımcılar</span></td><td><span class="bd bo">20%</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== ORGANIZERS ===================== -->
+<div class="pg" id="pg-organizers">
+  <div class="sec">
+    <div class="inn">
+      <div class="stag"><span data-lang="en" class="L">Organizing Committee</span><span data-lang="jp">組織委員会</span><span data-lang="tr">Organizasyon Komitesi</span></div>
+      <h2 class="stit"><span data-lang="en" class="L">Organizers &amp; <em>Guest Editors</em></span><span data-lang="jp">主催者・<em>ゲストエディター</em></span><span data-lang="tr">Organizatörler ve <em>Misafir Editörler</em></span></h2>
+      <div class="div"></div>
+      <div class="jblk">
+        <div style="font-size:1.4rem;flex-shrink:0">🏛️</div>
+        <div class="jtxt" data-lang="en"><strong>JSPS Bilateral Program (Japan–Türkiye / TÜBİTAK)</strong>This seminar is conducted within the JSPS Bilateral Program framework. JSPS supports international travel, domestic travel, and seminar costs for the Japanese research team. Learn more: <a class="ext-link" style="color:var(--gdl)" href="https://www.jsps.go.jp/english/e-bilat/index.html" target="_blank" rel="noopener noreferrer">jsps.go.jp</a></div>
+        <div class="jtxt" data-lang="jp"><strong>JSPS二国間プログラム（日本・トルコ / TÜBİTAK）</strong>本セミナーはJSPS二国間プログラムの枠内で実施されます。JSPSは日本研究チームの国際・国内渡航費およびセミナー経費を支援します。詳細：<a class="ext-link" style="color:var(--gdl)" href="https://www.jsps.go.jp/j-bilateral/" target="_blank" rel="noopener noreferrer">jsps.go.jp</a></div>
+        <div class="jtxt" data-lang="tr"><strong>JSPS İkili Programı (Japonya-Türkiye / TÜBİTAK)</strong>Bu seminer, JSPS İkili Programı çerçevesinde yürütülmektedir. JSPS, Japon araştırma ekibinin uluslararası/yurt içi seyahat ve seminer masraflarını desteklemektedir. Detaylar: <a class="ext-link" style="color:var(--gdl)" href="https://www.jsps.go.jp/english/e-bilat/index.html" target="_blank" rel="noopener noreferrer">jsps.go.jp</a></div>
+      </div>
+
+      <!-- Host Institutions -->
+      <div class="oblbl"><span data-lang="en" class="L">Host Institutions (Organizers)</span><span data-lang="jp">主催機関</span><span data-lang="tr">Ev Sahibi Kurumlar</span></div>
+      <div class="instg">
+        <div class="instc">
+          <!-- ▼ 新潟大学のロゴを挿入 (例: 公式ウェブサイトからダウンロードしたPNGファイル) -->
+          <div class="instlogo"><div class="img-ph" style="height:90px;border-radius:0;border:none"><div class="img-ph-icon" style="font-size:1.2rem">🖼️</div><div class="img-ph-note" style="font-size:.62rem"><span data-lang="en" class="L">Insert: Niigata University official logo</span><span data-lang="jp">挿入：新潟大学公式ロゴ</span><span data-lang="tr">Ekle: Niigata Üniversitesi resmi logosu</span></div></div></div>
+          <div class="instb">
+            <div class="instn"><span data-lang="en" class="L">Faculty of Agriculture, Niigata University</span><span data-lang="jp">新潟大学農学部</span><span data-lang="tr">Niigata Üniversitesi Ziraat Fakültesi</span></div>
+            <div class="instd"><span data-lang="en" class="L">Institute of Agriculture · Niigata 950-2181, Japan</span><span data-lang="jp">農学部 · 新潟市 950-2181</span><span data-lang="tr">Ziraat Fakültesi · Niigata 950-2181, Japonya</span></div>
+            <div class="instl"><a class="ext-link" href="https://www.niigata-u.ac.jp/en/" target="_blank" rel="noopener noreferrer">niigata-u.ac.jp 🇯🇵</a></div>
+          </div>
+        </div>
+        <div class="instc">
+          <!-- ▼ エーゲ大学のロゴを挿入 -->
+          <div class="instlogo"><div class="img-ph" style="height:90px;border-radius:0;border:none"><div class="img-ph-icon" style="font-size:1.2rem">🖼️</div><div class="img-ph-note" style="font-size:.62rem"><span data-lang="en" class="L">Insert: Ege University official logo</span><span data-lang="jp">挿入：エーゲ大学公式ロゴ</span><span data-lang="tr">Ekle: Ege Üniversitesi resmi logosu</span></div></div></div>
+          <div class="instb">
+            <div class="instn"><span data-lang="en" class="L">Faculty of Engineering, Ege University</span><span data-lang="jp">エーゲ大学工学部</span><span data-lang="tr">Ege Üniversitesi Mühendislik Fakültesi</span></div>
+            <div class="instd"><span data-lang="en" class="L">Dept. of Civil Engineering · Bornova, Izmir 35100, Türkiye</span><span data-lang="jp">土木工学科 · ボルノヴァ, イズミル 35100</span><span data-lang="tr">İnşaat Mühendisliği Bölümü · Bornova, İzmir 35100</span></div>
+            <div class="instl"><a class="ext-link" href="https://www.ege.edu.tr/eng/" target="_blank" rel="noopener noreferrer">ege.edu.tr 🇹🇷</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Guest Editors -->
+      <div class="oblbl"><span data-lang="en" class="L">Guest Editors — MDPI Buildings Special Issue</span><span data-lang="jp">ゲストエディター — MDPI Buildings SI</span><span data-lang="tr">Misafir Editörler — MDPI Buildings Özel Sayısı</span></div>
+      <div class="geg">
+        <div class="gec">
+          <!-- ▼ 鈴木教授の顔写真を挿入 (正方形または縦長、150×150px以上推奨) -->
+          <div class="geph"><div class="img-ph" style="height:150px;border-radius:0;border:none"><div class="img-ph-icon">👤</div><div class="img-ph-note" style="font-size:.62rem"><span data-lang="en" class="L">Insert: Photo of Prof. Suzuki</span><span data-lang="jp">挿入：鈴木教授の写真</span><span data-lang="tr">Ekle: Prof. Suzuki'nin fotoğrafı</span></div></div></div>
+          <div class="geb">
+            <div class="gen">Prof. Dr. Tetsuya Suzuki</div>
+            <div class="ger"><span data-lang="en" class="L">Leading Guest Editor</span><span data-lang="jp">リードゲストエディター</span><span data-lang="tr">Baş Misafir Editör</span></div>
+            <div class="gea">Niigata University</div>
+            <div class="gei"><span data-lang="en" class="L">Damage Mechanics · NDT · Acoustic Emission · 3D Image Analysis · Deep Learning</span><span data-lang="jp">損傷力学 · NDT · 音響放射 · 3D画像解析 · 深層学習</span><span data-lang="tr">Hasar Mekaniği · NDT · Akustik Emisyon · 3B Görüntü Analizi · Derin Öğrenme</span></div>
+            <div style="margin-top:.5rem"><a class="ext-link" href="mailto:suzuki@agr.niigata-u.ac.jp">suzuki@agr.niigata-u.ac.jp</a></div>
+          </div>
+        </div>
+        <div class="gec">
+          <!-- ▼ Alver教授の顔写真を挿入 -->
+          <div class="geph"><div class="img-ph" style="height:150px;border-radius:0;border:none"><div class="img-ph-icon">👤</div><div class="img-ph-note" style="font-size:.62rem"><span data-lang="en" class="L">Insert: Photo of Prof. Alver</span><span data-lang="jp">挿入：Alver教授の写真</span><span data-lang="tr">Ekle: Prof. Alver'in fotoğrafı</span></div></div></div>
+          <div class="geb">
+            <div class="gen">Prof. Dr. Ninel Alver</div>
+            <div class="ger"><span data-lang="en" class="L">Co-Guest Editor</span><span data-lang="jp">共同ゲストエディター</span><span data-lang="tr">Ortak Misafir Editör</span></div>
+            <div class="gea">Ege University</div>
+            <div class="gei"><span data-lang="en" class="L">NDT of Civil Infrastructure · Acoustic Emission · Ultrasonic · Infrared Thermography · Structural Monitoring</span><span data-lang="jp">土木インフラNDT · 音響放射 · 超音波 · 赤外線サーモグラフィ · 構造モニタリング</span><span data-lang="tr">Sivil Altyapı NDT · Akustik Emisyon · Ultrasonik · Kızılötesi Termografi · Yapısal İzleme</span></div>
+            <div style="margin-top:.5rem"><a class="ext-link" href="mailto:ninel.alver@ege.edu.tr">ninel.alver@ege.edu.tr</a></div>
+          </div>
+        </div>
+        <div class="gec">
+          <!-- ▼ 大野准教授の顔写真を挿入 -->
+          <div class="geph"><div class="img-ph" style="height:150px;border-radius:0;border:none"><div class="img-ph-icon">👤</div><div class="img-ph-note" style="font-size:.62rem"><span data-lang="en" class="L">Insert: Photo of Assoc. Prof. Ohno</span><span data-lang="jp">挿入：大野准教授の写真</span><span data-lang="tr">Ekle: Doç. Dr. Ohno'nun fotoğrafı</span></div></div></div>
+          <div class="geb">
+            <div class="gen">Assoc. Prof. Dr. Kentaro Ohno</div>
+            <div class="ger"><span data-lang="en" class="L">Co-Guest Editor</span><span data-lang="jp">共同ゲストエディター</span><span data-lang="tr">Ortak Misafir Editör</span></div>
+            <div class="gea">Tokyo Metropolitan University</div>
+            <div class="gei"><span data-lang="en" class="L">Concrete Structure Inspection · Acoustic Emission · Ultrasonic Testing · Impact Elastic Wave</span><span data-lang="jp">コンクリート構造物点検 · 音響放射 · 超音波試験 · 衝撃弾性波</span><span data-lang="tr">Beton Yapı Muayenesi · Akustik Emisyon · Ultrasonik Test · Darbe Elastik Dalgası</span></div>
+            <div style="margin-top:.5rem"><a class="ext-link" href="mailto:ohno@tmu.ac.jp">ohno@tmu.ac.jp</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== SPONSORS ===================== -->
+<div class="pg" id="pg-sponsors">
+  <div class="sec">
+    <div class="inn">
+      <div class="stag"><span data-lang="en" class="L">Supporting Organizations</span><span data-lang="jp">協賛機関</span><span data-lang="tr">Destekleyen Kuruluşlar</span></div>
+      <h2 class="stit"><span data-lang="en" class="L"><em>Co-sponsors</em> &amp; Partners</span><span data-lang="jp"><em>協賛</em>・パートナー機関</span><span data-lang="tr"><em>Ortak Sponsorlar</em> ve Ortaklar</span></h2>
+      <div class="div"></div>
+      <p class="sbody" data-lang="en" class="L">NDTSI 2026 is supported by the following academic institutions and industry partners in Japan and Türkiye. We welcome inquiries from organizations interested in sponsorship — contact <a class="ext-link" href="#" onclick="copyEmail();return false;">Contact</a>.</p>
+      <p class="sbody" data-lang="jp">NDTSI 2026は以下の学術機関・産業パートナーに支援されています。協賛にご興味の機関は<a class="ext-link" href="#" onclick="copyEmail();return false;">Contact</a>までお問い合わせください。</p>
+      <p class="sbody" data-lang="tr">NDTSI 2026, aşağıdaki akademik kurumlar ve endüstri ortakları tarafından desteklenmektedir. Sponsorlukla ilgilenen kuruluşlar için: <a class="ext-link" href="#" onclick="copyEmail();return false;">Contact</a>.</p>
+      <div class="sgg">
+        <div class="sgc">
+          <!-- ▼ 東京都立大学のロゴを挿入 -->
+          <div class="sglogo"><div class="img-ph" style="height:72px;border-radius:0;border:none"><div class="img-ph-note" style="font-size:.6rem;padding-top:.3rem"><span data-lang="en" class="L">Insert: TMU logo</span><span data-lang="jp">挿入：都立大ロゴ</span><span data-lang="tr">Ekle: TMU logosu</span></div></div></div>
+          <div class="sgb">
+            <div class="sgn"><span data-lang="en" class="L">Dept. of Civil &amp; Environmental Eng., Tokyo Metropolitan University</span><span data-lang="jp">東京都立大学 都市環境学部 土木工学科</span><span data-lang="tr">İnşaat ve Çevre Müh. Böl., Tokyo Metropolitan Üniversitesi</span></div>
+            <div class="sgt"><span data-lang="en" class="L">Academic Partner</span><span data-lang="jp">学術協力</span><span data-lang="tr">Akademik Ortak</span> · <a class="ext-link" href="https://www.tmu.ac.jp/english/" target="_blank" rel="noopener noreferrer">tmu.ac.jp</a></div>
+          </div>
+        </div>
+        <div class="sgc">
+          <!-- ▼ 農研機構のロゴを挿入 -->
+          <div class="sglogo"><div class="img-ph" style="height:72px;border-radius:0;border:none"><div class="img-ph-note" style="font-size:.6rem;padding-top:.3rem"><span data-lang="en" class="L">Insert: NARO logo</span><span data-lang="jp">挿入：農研機構ロゴ</span><span data-lang="tr">Ekle: NARO logosu</span></div></div></div>
+          <div class="sgb">
+            <div class="sgn"><span data-lang="en" class="L">NARO · Rural Engineering Research Division</span><span data-lang="jp">農研機構 · 農村工学研究部門</span><span data-lang="tr">NARO · Kırsal Mühendislik Araştırma Bölümü</span></div>
+            <div class="sgt"><span data-lang="en" class="L">Research Partner</span><span data-lang="jp">研究協力</span><span data-lang="tr">Araştırma Ortağı</span> · <a class="ext-link" href="https://www.naro.go.jp/" target="_blank" rel="noopener noreferrer">naro.go.jp</a></div>
+          </div>
+        </div>
+        <div class="sgc">
+          <!-- ▼ 三祐コンサルタントのロゴを挿入 -->
+          <div class="sglogo"><div class="img-ph" style="height:72px;border-radius:0;border:none"><div class="img-ph-note" style="font-size:.6rem;padding-top:.3rem"><span data-lang="en" class="L">Insert: Sanyu Consultants logo</span><span data-lang="jp">挿入：三祐コンサルタントロゴ</span><span data-lang="tr">Ekle: Sanyu Consultants logosu</span></div></div></div>
+          <div class="sgb">
+            <div class="sgn"><span data-lang="en" class="L">Sanyu Consultants Inc.</span><span data-lang="jp">三祐コンサルタント株式会社</span><span data-lang="tr">Sanyu Consultants Inc.</span></div>
+            <div class="sgt"><span data-lang="en" class="L">Industry Sponsor</span><span data-lang="jp">産業協賛</span><span data-lang="tr">Endüstri Sponsoru</span></div>
+          </div>
+        </div>
+        <div class="sgc">
+          <!-- ▼ 安藤ハザマ技術研究所のロゴを挿入 -->
+          <div class="sglogo"><div class="img-ph" style="height:72px;border-radius:0;border:none"><div class="img-ph-note" style="font-size:.6rem;padding-top:.3rem"><span data-lang="en" class="L">Insert: Ando Hazama logo</span><span data-lang="jp">挿入：安藤ハザマロゴ</span><span data-lang="tr">Ekle: Ando Hazama logosu</span></div></div></div>
+          <div class="sgb">
+            <div class="sgn"><span data-lang="en" class="L">Ando Hazama Technical Research Institute</span><span data-lang="jp">安藤ハザマ技術研究所</span><span data-lang="tr">Ando Hazama Teknik Araştırma Enstitüsü</span></div>
+            <div class="sgt"><span data-lang="en" class="L">Industry Sponsor</span><span data-lang="jp">産業協賛</span><span data-lang="tr">Endüstri Sponsoru</span></div>
+          </div>
+        </div>
+        <div class="sgc">
+          <!-- ▼ 日本水工コンサルタントのロゴを挿入 -->
+          <div class="sglogo"><div class="img-ph" style="height:72px;border-radius:0;border:none"><div class="img-ph-note" style="font-size:.6rem;padding-top:.3rem"><span data-lang="en" class="L">Insert: Nippon Hydraulic logo</span><span data-lang="jp">挿入：日本水工コンサルタントロゴ</span><span data-lang="tr">Ekle: Nippon Hydraulic logosu</span></div></div></div>
+          <div class="sgb">
+            <div class="sgn"><span data-lang="en" class="L">Nippon Hydraulic Consultants Co., Ltd.</span><span data-lang="jp">日本水工コンサルタント株式会社</span><span data-lang="tr">Nippon Hydraulic Consultants Co., Ltd.</span></div>
+            <div class="sgt"><span data-lang="en" class="L">Industry Sponsor</span><span data-lang="jp">産業協賛</span><span data-lang="tr">Endüstri Sponsoru</span></div>
+          </div>
+        </div>
+        <div class="sgc">
+          <!-- ▼ 日鉄建材のロゴを挿入 -->
+          <div class="sglogo"><div class="img-ph" style="height:72px;border-radius:0;border:none"><div class="img-ph-note" style="font-size:.6rem;padding-top:.3rem"><span data-lang="en" class="L">Insert: Nippon Steel Metal Products logo</span><span data-lang="jp">挿入：日鉄建材ロゴ</span><span data-lang="tr">Ekle: Nippon Steel Metal Products logosu</span></div></div></div>
+          <div class="sgb">
+            <div class="sgn"><span data-lang="en" class="L">Nippon Steel Metal Products Co., Ltd.</span><span data-lang="jp">日鉄建材株式会社</span><span data-lang="tr">Nippon Steel Metal Products Co., Ltd.</span></div>
+            <div class="sgt"><span data-lang="en" class="L">Industry Sponsor</span><span data-lang="jp">産業協賛</span><span data-lang="tr">Endüstri Sponsoru</span></div>
+          </div>
+        </div>
+        <div class="sgc sgcs">
+          <div class="sgcs-b"><div class="sgcs-l">Coming Soon</div><div class="sgcs-t"><span data-lang="en" class="L">Additional sponsors to be announced</span><span data-lang="jp">協賛機関を追加募集中</span><span data-lang="tr">Ek sponsorlar duyurulacak</span></div></div>
+        </div>
+        <div class="sgc sgcs">
+          <div class="sgcs-b"><div class="sgcs-l">Coming Soon</div><div class="sgcs-t"><span data-lang="en" class="L">Contact us to become a sponsor</span><span data-lang="jp">協賛のご相談はこちら</span><span data-lang="tr">Sponsor olmak için iletişime geçin</span></div></div>
+        </div>
+        <div class="sgc sgcs">
+          <div class="sgcs-b"><div class="sgcs-l">Coming Soon</div><div class="sgcs-t"><span data-lang="en" class="L">Contact us to become a sponsor</span><span data-lang="jp">協賛のご相談はこちら</span><span data-lang="tr">Sponsor olmak için iletişime geçin</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA + FOOTER (always shown except home) -->
+<div id="shared-btm" style="display:none">
+  <div class="cta">
+    <h2 class="cta-t"><span data-lang="en" class="L">Register Your Interest</span><span data-lang="jp">参加申し込み・お問い合わせ</span><span data-lang="tr">İlginizi Bildirin</span></h2>
+    <p class="cta-b" data-lang="en" class="L">Join the inaugural NDTSI — September 7–10, 2026, Izmir, Türkiye. Abstract submission details coming soon.</p>
+    <p class="cta-b" data-lang="jp">第1回NDTSI — 2026年9月7–10日、イズミル（トルコ）開催。要旨提出詳細は追って発表します。</p>
+    <p class="cta-b" data-lang="tr">İlk NDTSI — 7–10 Eylül 2026, İzmir, Türkiye. Özet gönderim detayları yakında duyurulacak.</p>
+    <div style="display:inline-flex;flex-direction:column;align-items:center;gap:.6rem">
+      <div style="display:flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:3px;padding:.55rem 1rem .55rem 1.2rem">
+        <span id="email-txt" style="position:absolute;opacity:0;pointer-events:none;user-select:all;font-size:0">f24n001g@mail.cc.niigata-u.ac.jp</span>Contact
+        <button onclick="copyEmail()" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.7);padding:.3rem .65rem;border-radius:2px;font-size:.72rem;cursor:pointer;letter-spacing:.04em;white-space:nowrap;transition:background .15s" onmouseover="this.style.background='rgba(255,255,255,.22)'" onmouseout="this.style.background='rgba(255,255,255,.12)'">
+          <span data-lang="en" class="L">📋 Copy</span>
+          <span data-lang="jp">📋 コピー</span>
+          <span data-lang="tr">📋 Kopyala</span>
+        </button>
+      </div>
+      <div id="copy-confirm" style="font-size:.75rem;color:var(--gdl);opacity:0;transition:opacity .3s;min-height:1.1rem">
+        <span data-lang="en" class="L">✓ Copied!</span>
+        <span data-lang="jp">✓ コピーしました</span>
+        <span data-lang="tr">✓ Kopyalandı!</span>
+      </div>
+    </div>
+    <div class="cta-em">Contact: Shibano, Niigata University</div>
+  </div>
+  <footer>
+    <p>1st Joint Seminar on Emerging Non-Destructive Technologies for Sustainable Infrastructure (NDTSI 2026) · Japan–Türkiye</p>
+    <p><a href="#" onclick="copyEmail();return false;">Contact</a></p>
+    <p style="margin-top:.3rem;font-size:.64rem;color:rgba(255,255,255,.17)">No cookies · No tracking · All external links use rel="noopener noreferrer"</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+function copyEmail(){
+  var email='f24n001g@mail.cc.niigata-u.ac.jp';
+  function showToast(){
+    var t=document.getElementById('toast');
+    if(!t)return;
+    t.style.opacity='1';t.style.transform='translateX(-50%) translateY(0)';
+    setTimeout(function(){t.style.opacity='0';t.style.transform='translateX(-50%) translateY(20px)'},2200);
+    var c=document.getElementById('copy-confirm');
+    if(c){c.style.opacity='1';setTimeout(function(){c.style.opacity='0'},2200)}
+  }
+  function fallback(){
+    var el=document.getElementById('email-txt');
+    if(el){var sel=window.getSelection(),r=document.createRange();r.selectNodeContents(el);sel.removeAllRanges();sel.addRange(r);try{document.execCommand('copy')}catch(e){}}
+    showToast();
+  }
+  if(navigator.clipboard&&window.isSecureContext){
+    navigator.clipboard.writeText(email).then(showToast).catch(fallback);
+  }else{fallback();}
+}
+window.copyEmail=copyEmail;
+var cl='en';
+function setL(l){
+  cl=l;
+  document.querySelectorAll('.lb').forEach(function(b){b.classList.toggle('act',b.textContent.trim().toLowerCase()===l||(l==='jp'&&b.textContent.trim()==='JP'))});
+  document.querySelectorAll('[data-lang]').forEach(function(el){
+    var match=el.getAttribute('data-lang')===l;
+    el.classList.toggle('L',match);
+    if(el.tagName==='SPAN'||el.tagName==='A'){el.style.display=match?'inline':'none'}
+    else{el.style.display=match?'block':'none'}
+  });
+}
+function go(id){
+  document.querySelectorAll('.pg').forEach(function(p){p.classList.remove('act')});
+  var pg=document.getElementById('pg-'+id);
+  if(pg)pg.classList.add('act');
+  document.querySelectorAll('.nav-links button').forEach(function(b){b.classList.remove('act')});
+  var nb=document.getElementById('nb-'+id);
+  if(nb)nb.classList.add('act');
+  document.getElementById('shared-btm').style.display=id==='home'?'none':'block';
+  window.scrollTo(0,0);
+}
+document.querySelectorAll('.lb').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var t=btn.textContent.trim();
+    setL(t==='JP'?'jp':t==='TR'?'tr':'en');
+  });
+});
+window.go=go;
+window.setL=setL;
+setL('en');
+go('home');
+})();
+</script>
+</body>
+</html>
